@@ -5,15 +5,15 @@ const AddTransaction = () => {
         <div className="form-wrapper">
            <form>
                <div className="input-group income">
-                   <input type="text" placeholder="Add income..." autocomplete="off"/>
-                   <input type="number" placeholder="Amount" autocomplete="off"/>
+                   <input type="text" placeholder="Add income..." autoComplete="off"/>
+                   <input type="number" placeholder="Amount" autoComplete="off"/>
                    <input type="submit" value="Submit" />
                </div>
             </form> 
             <form>
                <div className="input-group expense">
-                   <input type="text" placeholder="Add expense..." autocomplete="off"/>
-                   <input type="number" placeholder="Amount" autocomplete="off"/>
+                   <input type="text" placeholder="Add expense..." autoComplete="off"/>
+                   <input type="number" placeholder="Amount" autoComplete="off"/>
                    <input type="submit" value="Submit" />
                </div>
             </form> 

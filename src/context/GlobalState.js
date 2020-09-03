@@ -4,13 +4,13 @@ import AppReducer from './AppReducer';
 // initialState object
 const initialState = {
     incomeTransactions: [
-        { id: 1, incText: "Car", incAmount: 10000},
-        { id: 2, incText: "Gas", incAmount: 50},
-        { id: 3, incText: "Phone", incAmount: 800}
+        { id: 1, incText: "Salary", incAmount: 10000},
+        { id: 2, incText: "Dividends", incAmount: 50},
+        { id: 3, incText: "Tips", incAmount: 800}
     ],
     expenseTransactions: [
-        { id: 1, expText: "Car", expAmount: 10000},
-        { id: 2, expText: "Gas", expAmount: 50},
+        { id: 1, expText: "Groceries", expAmount: 100},
+        { id: 2, expText: "Gas", expAmount: 15},
         { id: 3, expText: "Phone", expAmount: 800}
 
     ]
